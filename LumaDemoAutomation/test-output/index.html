@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\tasharma\AppData\Local\Temp\testng-eclipse-1086291010\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CustomerLoginTest" class="method navigator-link" hash-for-method="createanaccountbutton_redirection">createanaccountbutton_redirection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CustomerLoginTest" class="method navigator-link" hash-for-method="forgotyourpasswordbutton_redirection">forgotyourpasswordbutton_redirection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CustomerLoginTest" class="method navigator-link" hash-for-method="navigate_to_homepage_click_on_signin">navigate_to_homepage_click_on_signin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CustomerLoginTest" class="method navigator-link" hash-for-method="sign_in_with_Blank_credentials">sign_in_with_Blank_credentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CustomerLoginTest" class="method navigator-link" hash-for-method="sign_in_with_Blank_password">sign_in_with_Blank_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CustomerLoginTest" class="method navigator-link" hash-for-method="sign_in_with_blank_email">sign_in_with_blank_email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CustomerLoginTest" class="method navigator-link" hash-for-method="sign_in_with_invalid_credentials">sign_in_with_invalid_credentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CustomerLoginTest" class="method navigator-link" hash-for-method="sign_in_with_invalid_email">sign_in_with_invalid_email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CustomerLoginTest" class="method navigator-link" hash-for-method="sign_in_with_invalid_password">sign_in_with_invalid_password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CustomerLoginTest" class="method navigator-link" hash-for-method="sign_in_with_valid_credentials">sign_in_with_valid_credentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CustomerLoginTest" class="method navigator-link" hash-for-method="verify_label_email_on_page">verify_label_email_on_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CustomerLoginTest" class="method navigator-link" hash-for-method="verify_label_password_on_page">verify_label_password_on_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CustomerLoginTest" class="method navigator-link" hash-for-method="visibility_customer_login_header">visibility_customer_login_header</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CustomerLoginTest" class="method navigator-link" hash-for-method="visibility_registered_customers_header">visibility_registered_customers_header</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Test.CustomerLoginTest" class="method navigator-link" hash-for-method="visibility_try_demo_customer_access_dialog">visibility_try_demo_customer_access_dialog</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.CustomerLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createanaccountbutton_redirection">
+                  </a> <!-- createanaccountbutton_redirection -->
+                  <span class="method-name">createanaccountbutton_redirection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="forgotyourpasswordbutton_redirection">
+                  </a> <!-- forgotyourpasswordbutton_redirection -->
+                  <span class="method-name">forgotyourpasswordbutton_redirection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="navigate_to_homepage_click_on_signin">
+                  </a> <!-- navigate_to_homepage_click_on_signin -->
+                  <span class="method-name">navigate_to_homepage_click_on_signin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sign_in_with_Blank_credentials">
+                  </a> <!-- sign_in_with_Blank_credentials -->
+                  <span class="method-name">sign_in_with_Blank_credentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sign_in_with_Blank_password">
+                  </a> <!-- sign_in_with_Blank_password -->
+                  <span class="method-name">sign_in_with_Blank_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sign_in_with_blank_email">
+                  </a> <!-- sign_in_with_blank_email -->
+                  <span class="method-name">sign_in_with_blank_email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sign_in_with_invalid_credentials">
+                  </a> <!-- sign_in_with_invalid_credentials -->
+                  <span class="method-name">sign_in_with_invalid_credentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sign_in_with_invalid_email">
+                  </a> <!-- sign_in_with_invalid_email -->
+                  <span class="method-name">sign_in_with_invalid_email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sign_in_with_invalid_password">
+                  </a> <!-- sign_in_with_invalid_password -->
+                  <span class="method-name">sign_in_with_invalid_password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sign_in_with_valid_credentials">
+                  </a> <!-- sign_in_with_valid_credentials -->
+                  <span class="method-name">sign_in_with_valid_credentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_label_email_on_page">
+                  </a> <!-- verify_label_email_on_page -->
+                  <span class="method-name">verify_label_email_on_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_label_password_on_page">
+                  </a> <!-- verify_label_password_on_page -->
+                  <span class="method-name">verify_label_password_on_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="visibility_customer_login_header">
+                  </a> <!-- visibility_customer_login_header -->
+                  <span class="method-name">visibility_customer_login_header</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="visibility_registered_customers_header">
+                  </a> <!-- visibility_registered_customers_header -->
+                  <span class="method-name">visibility_registered_customers_header</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="visibility_try_demo_customer_access_dialog">
+                  </a> <!-- visibility_try_demo_customer_access_dialog -->
+                  <span class="method-name">visibility_try_demo_customer_access_dialog</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\tasharma\AppData\Local\Temp\testng-eclipse-1086291010\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.CustomerLoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'sign_in_with_valid_credentials')
+data.setCell(0, 2, 'Test.CustomerLoginTest')
+data.setCell(0, 3, 13351);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'sign_in_with_invalid_password')
+data.setCell(1, 2, 'Test.CustomerLoginTest')
+data.setCell(1, 3, 9136);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'sign_in_with_blank_email')
+data.setCell(2, 2, 'Test.CustomerLoginTest')
+data.setCell(2, 3, 6152);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'sign_in_with_Blank_password')
+data.setCell(3, 2, 'Test.CustomerLoginTest')
+data.setCell(3, 3, 6086);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'sign_in_with_invalid_email')
+data.setCell(4, 2, 'Test.CustomerLoginTest')
+data.setCell(4, 3, 6000);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'forgotyourpasswordbutton_redirection')
+data.setCell(5, 2, 'Test.CustomerLoginTest')
+data.setCell(5, 3, 5708);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'sign_in_with_invalid_credentials')
+data.setCell(6, 2, 'Test.CustomerLoginTest')
+data.setCell(6, 3, 5699);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'sign_in_with_Blank_credentials')
+data.setCell(7, 2, 'Test.CustomerLoginTest')
+data.setCell(7, 3, 2310);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'createanaccountbutton_redirection')
+data.setCell(8, 2, 'Test.CustomerLoginTest')
+data.setCell(8, 3, 2079);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'navigate_to_homepage_click_on_signin')
+data.setCell(9, 2, 'Test.CustomerLoginTest')
+data.setCell(9, 3, 1559);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'visibility_try_demo_customer_access_dialog')
+data.setCell(10, 2, 'Test.CustomerLoginTest')
+data.setCell(10, 3, 52);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verify_label_password_on_page')
+data.setCell(11, 2, 'Test.CustomerLoginTest')
+data.setCell(11, 3, 44);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'visibility_customer_login_header')
+data.setCell(12, 2, 'Test.CustomerLoginTest')
+data.setCell(12, 3, 25);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verify_label_email_on_page')
+data.setCell(13, 2, 'Test.CustomerLoginTest')
+data.setCell(13, 3, 24);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'visibility_registered_customers_header')
+data.setCell(14, 2, 'Test.CustomerLoginTest')
+data.setCell(14, 3, 19);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 58 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.CustomerLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">Launch</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">navigate_to_homepage_click_on_signin</span>
+                <span class="method-start">9815 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">visibility_customer_login_header</span>
+                <span class="method-start">11377 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">visibility_registered_customers_header</span>
+                <span class="method-start">11403 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_label_email_on_page</span>
+                <span class="method-start">11424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_label_password_on_page</span>
+                <span class="method-start">11450 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">visibility_try_demo_customer_access_dialog</span>
+                <span class="method-start">11495 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createanaccountbutton_redirection</span>
+                <span class="method-start">11548 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">forgotyourpasswordbutton_redirection</span>
+                <span class="method-start">13628 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sign_in_with_invalid_credentials</span>
+                <span class="method-start">19337 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sign_in_with_invalid_email</span>
+                <span class="method-start">25038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sign_in_with_invalid_password</span>
+                <span class="method-start">31040 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sign_in_with_blank_email</span>
+                <span class="method-start">40177 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sign_in_with_Blank_password</span>
+                <span class="method-start">46330 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sign_in_with_Blank_credentials</span>
+                <span class="method-start">52417 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sign_in_with_valid_credentials</span>
+                <span class="method-start">54730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">Close_quit</span>
+                <span class="method-start">68121 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

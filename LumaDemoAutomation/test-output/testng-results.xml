@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-05T10:15:52 IST" name="Default suite" finished-at="2023-05-05T10:16:50 IST" duration-ms="58292">
+    <groups>
+    </groups>
+    <test started-at="2023-05-05T10:15:52 IST" name="Default test" finished-at="2023-05-05T10:16:50 IST" duration-ms="58292">
+      <class name="Test.CustomerLoginTest">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Test.CustomerLoginTest@449a4f23]" started-at="2023-05-05T10:15:42 IST" name="Launch" finished-at="2023-05-05T10:15:52 IST" duration-ms="9789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="navigate_to_homepage_click_on_signin()[pri:1, instance:Test.CustomerLoginTest@449a4f23]" started-at="2023-05-05T10:15:52 IST" name="navigate_to_homepage_click_on_signin" finished-at="2023-05-05T10:15:54 IST" duration-ms="1559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_to_homepage_click_on_signin -->
+        <test-method signature="visibility_customer_login_header()[pri:2, instance:Test.CustomerLoginTest@449a4f23]" started-at="2023-05-05T10:15:54 IST" name="visibility_customer_login_header" finished-at="2023-05-05T10:15:54 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibility_customer_login_header -->
+        <test-method signature="visibility_registered_customers_header()[pri:3, instance:Test.CustomerLoginTest@449a4f23]" started-at="2023-05-05T10:15:54 IST" name="visibility_registered_customers_header" finished-at="2023-05-05T10:15:54 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibility_registered_customers_header -->
+        <test-method signature="verify_label_email_on_page()[pri:4, instance:Test.CustomerLoginTest@449a4f23]" started-at="2023-05-05T10:15:54 IST" name="verify_label_email_on_page" finished-at="2023-05-05T10:15:54 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_label_email_on_page -->
+        <test-method signature="verify_label_password_on_page()[pri:5, instance:Test.CustomerLoginTest@449a4f23]" started-at="2023-05-05T10:15:54 IST" name="verify_label_password_on_page" finished-at="2023-05-05T10:15:54 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_label_password_on_page -->
+        <test-method signature="visibility_try_demo_customer_access_dialog()[pri:6, instance:Test.CustomerLoginTest@449a4f23]" started-at="2023-05-05T10:15:54 IST" name="visibility_try_demo_customer_access_dialog" finished-at="2023-05-05T10:15:54 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibility_try_demo_customer_access_dialog -->
+        <test-method signature="createanaccountbutton_redirection()[pri:7, instance:Test.CustomerLoginTest@449a4f23]" started-at="2023-05-05T10:15:54 IST" name="createanaccountbutton_redirection" finished-at="2023-05-05T10:15:56 IST" duration-ms="2079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createanaccountbutton_redirection -->
+        <test-method signature="forgotyourpasswordbutton_redirection()[pri:8, instance:Test.CustomerLoginTest@449a4f23]" started-at="2023-05-05T10:15:56 IST" name="forgotyourpasswordbutton_redirection" finished-at="2023-05-05T10:16:02 IST" duration-ms="5708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotyourpasswordbutton_redirection -->
+        <test-method signature="sign_in_with_invalid_credentials()[pri:9, instance:Test.CustomerLoginTest@449a4f23]" started-at="2023-05-05T10:16:02 IST" name="sign_in_with_invalid_credentials" finished-at="2023-05-05T10:16:07 IST" duration-ms="5699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign_in_with_invalid_credentials -->
+        <test-method signature="sign_in_with_invalid_email()[pri:10, instance:Test.CustomerLoginTest@449a4f23]" started-at="2023-05-05T10:16:07 IST" name="sign_in_with_invalid_email" finished-at="2023-05-05T10:16:13 IST" duration-ms="6000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign_in_with_invalid_email -->
+        <test-method signature="sign_in_with_invalid_password()[pri:11, instance:Test.CustomerLoginTest@449a4f23]" started-at="2023-05-05T10:16:13 IST" name="sign_in_with_invalid_password" finished-at="2023-05-05T10:16:23 IST" duration-ms="9136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign_in_with_invalid_password -->
+        <test-method signature="sign_in_with_blank_email()[pri:12, instance:Test.CustomerLoginTest@449a4f23]" started-at="2023-05-05T10:16:23 IST" name="sign_in_with_blank_email" finished-at="2023-05-05T10:16:29 IST" duration-ms="6152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign_in_with_blank_email -->
+        <test-method signature="sign_in_with_Blank_password()[pri:13, instance:Test.CustomerLoginTest@449a4f23]" started-at="2023-05-05T10:16:29 IST" name="sign_in_with_Blank_password" finished-at="2023-05-05T10:16:35 IST" duration-ms="6086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign_in_with_Blank_password -->
+        <test-method signature="sign_in_with_Blank_credentials()[pri:14, instance:Test.CustomerLoginTest@449a4f23]" started-at="2023-05-05T10:16:35 IST" name="sign_in_with_Blank_credentials" finished-at="2023-05-05T10:16:37 IST" duration-ms="2310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign_in_with_Blank_credentials -->
+        <test-method signature="sign_in_with_valid_credentials()[pri:15, instance:Test.CustomerLoginTest@449a4f23]" started-at="2023-05-05T10:16:37 IST" name="sign_in_with_valid_credentials" finished-at="2023-05-05T10:16:50 IST" duration-ms="13351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign_in_with_valid_credentials -->
+        <test-method is-config="true" signature="Close_quit()[pri:0, instance:Test.CustomerLoginTest@449a4f23]" started-at="2023-05-05T10:16:50 IST" name="Close_quit" finished-at="2023-05-05T10:16:51 IST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_quit -->
+      </class> <!-- Test.CustomerLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
